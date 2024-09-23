@@ -4,14 +4,28 @@
 <head>
     <title>Fall Weather Forecast</title>
     <!-- Link to external stylesheet -->
-
+    <link rel="stylesheet" href="style.css">
 
     <!-- Embedded styles will go here -->
-
+<style>
+    body{
+        background-color: bisque;
+    }
+    div {
+        background-color: cadetblue;
+        height: 50px;
+        width: 50px;
+        padding-top: 50%;
+        padding-left: 50%;
+        padding-right: 50%;
+        padding-bottom: 50%;
+    }
+</style>
 </head>
 
 <body>
-    <h1>Fall Weather Forecast</h1>
+    <!--inline-->
+    <h1 style="color: rgb(110, 63, 2); block-size: auto;">Fall Weather Forecast</h1>
     <div class="forecast">
         <p class="day">Monday: Sunny, 60°F</p>
         <p class="day">Tuesday: Cloudy, 55°F</p>
@@ -19,7 +33,7 @@
     </div>
 
     <!-- Example of where inline styles can be added -->
-    <footer style="text-align: center;">Last updated: September 22</footer>
+    <footer style="text-align: center; color: black;"  >Last updated: September 22</footer>
 </body>
 
 </html>
